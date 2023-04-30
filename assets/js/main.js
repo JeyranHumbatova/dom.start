@@ -7,4 +7,5 @@ function addArr() {
     write.push(inp.value);
     document.getElementById("text").style.color= inp2.value;
     document.getElementById("text").innerHTML = write;
+    inp.value="";
 }
