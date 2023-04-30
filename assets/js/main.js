@@ -6,6 +6,6 @@ let write=[];
 function addArr() {
     write.push(inp.value);
     document.getElementById("text").style.color= inp2.value;
-    document.getElementById("text").innerHTML = write;
+    document.getElementById("text").innerHTML = write.join(", ");
     inp.value="";
 }
